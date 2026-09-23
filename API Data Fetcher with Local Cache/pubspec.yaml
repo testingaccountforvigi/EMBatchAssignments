@@ -1,0 +1,36 @@
+name: api_data_fetcher
+description: "Assignment 8 - API Data Fetcher with Local Cache (FutureBuilder + SharedPreferences)"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking
+  http: ^1.2.2
+
+  # Local persistent cache for the last fetched API response
+  shared_preferences: ^2.3.2
+
+  # Nice, modern Google Fonts instead of the default system font
+  google_fonts: ^6.2.1
+
+  # Skeleton / shimmer loading effect while data is being fetched
+  shimmer: ^3.0.0
+
+  # Date formatting for "last updated" timestamps
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
